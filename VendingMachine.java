@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
-    private List<Product> products;
+    protected List<Product> products;
 
     public VendingMachine() {
         this.products = new ArrayList<>();
